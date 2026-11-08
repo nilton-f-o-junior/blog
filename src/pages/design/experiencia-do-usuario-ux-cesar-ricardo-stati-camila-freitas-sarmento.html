@@ -1,0 +1,723 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Resumo e reflexões sobre o livro Experiência do Usuário UX, de Cesar Ricardo Stati e Camila Freitas Sarmento: usabilidade, hierarquia, visibilidade e heurísticas"
+        />
+        <meta
+            name="keywords"
+            content="Experiência do Usuário, UX, usabilidade, heurísticas, hierarquia visual, Cesar Ricardo Stati, Camila Freitas Sarmento"
+        />
+        <meta name="author" content="Nilton F. O. Júnior" />
+
+        <title>Nilton F. O. Júnior | Experiência do Usuário UX</title>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/src/css/main.css" />
+        <link rel="stylesheet" href="/src/css/template.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav aria-label="Breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="/index.html">Início</a></li>
+                    <li aria-current="page">Experiência do Usuário UX</li>
+                </ol>
+            </nav>
+
+            <time class="article-date" datetime="2026-11-08"
+                >08 Novembro | 2026</time
+            >
+            <h1>Experiência do Usuário UX</h1>
+            <p class="article-summary">
+                Anotações e reflexões sobre o livro de Cesar Ricardo Stati e
+                Camila Freitas Sarmento: usabilidade, hierarquia, visibilidade e
+                heurísticas
+            </p>
+        </header>
+
+        <main>
+            <article class="article-content">
+                <section>
+                    <h2>Capítulos</h2>
+                    <ul>
+                        <li>
+                            <a href="#capitulo-1"
+                                >Capítulo 1 - Experiência do usuário</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#capitulo-2"
+                                >Capítulo 2 - Como trabalhar com o usuário</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#capitulo-3"
+                                >Capítulo 3 - Documentação dos protótipos e a
+                                importância da revisão da documentação</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#capitulo-4"
+                                >Capítulo 4 - Princípio da proximidade</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#capitulo-5"
+                                >Capítulo 5 - Feedback do usuário</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#capitulo-6"
+                                >Capítulo 6 - Materiais e métodos</a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="capitulo-1">
+                    <h2>Introdução</h2>
+
+                    <p>
+                        Os primeiros estudos nascem da relação dos pilotos com
+                        as aeronaves e da resposta necessária para algumas
+                        ações, como falta de combustível ou defeito, alertando o
+                        piloto sobre o ocorrido, assim gerando um feedback
+                        visual.
+                    </p>
+
+                    <p>
+                        O UX tem que pensar e cuidar de todos os aspectos da
+                        interação das pessoas com os dispositivos, e o resultado
+                        vem de estudos e testes do "produto" com o usuário.
+                    </p>
+                </section>
+
+                <section id="design-centrado-no-usuario">
+                    <h2>O design centrado no usuário</h2>
+
+                    <p>
+                        É interessante pensar que sempre criamos produtos
+                        pensando no usuário, porém, com a tecnologia e o uso de
+                        aparelhos eletrônicos, o conceito do design centrado no
+                        usuário começou a fazer mais sentido; cada vez mais
+                        vemos isso sendo aplicado a novos projetos e a tudo o
+                        que vai sendo criado.
+                    </p>
+
+                    <p>
+                        Como foi abordado por Travis Lowdermilk em
+                        <em>Design Centrado no Usuário</em>, um bom design vai
+                        além de algo bonito ou feio; é a experiência que o
+                        usuário terá ao interagir com o que foi criado, quão
+                        difícil é para qualquer pessoa fazer o que precisa
+                        fazer. Quantos passos são necessários? Quão visualmente
+                        clara é determinada coisa?
+                    </p>
+
+                    <p>
+                        Outro detalhe importante é que boa parte desse trabalho
+                        não é visível; o produto final não demonstra nem metade
+                        do trabalho envolvido para a entrega final. Pesquisas,
+                        testes, wireframes, tudo fica para a equipe, e o usuário
+                        final só terá contato com o resultado,
+                        independentemente de ser bom ou não.
+                    </p>
+
+                    <p>
+                        É interessante pensar que um mau projeto gera 2 clientes
+                        importantes:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>O que reclama:</strong> o cliente que
+                            reclama, muitas vezes não dá uma segunda chance ao
+                            seu projeto, porém ele deixa o feedback para que a
+                            melhora ocorra; então, além do retrabalho, o
+                            resultado muitas vezes é a experiência negativa do
+                            usuário;
+                        </li>
+                        <li>
+                            <strong>O indiferente:</strong> esse é pior do que o
+                            que reclama, pois, ao ter contato com o produto e
+                            não reportar, não se tem como saber o que ele achou
+                            da experiência entregue, muitas vezes tendo uma
+                            resposta que pode ajudar a melhorar o que foi
+                            produzido.
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="usabilidade">
+                    <h2>Design centrado no usuário e usabilidade</h2>
+
+                    <p>
+                        É interessante pensar que usabilidade está relacionada a
+                        fatores como a facilidade de uso, e não ao quão bela é
+                        uma aplicação. Ao desenvolver uma aplicação, você se
+                        pergunta:
+                    </p>
+
+                    <ul>
+                        <li>
+                            O usuário consegue realizar uma tarefa sem
+                            transtorno ou demora?
+                        </li>
+                        <li>Em um número razoável de passos?</li>
+                        <li>As informações são fáceis de entender?</li>
+                        <li>
+                            O residual após a experiência é positivo ou o
+                            usuário saiu cognitivamente exausto dali?
+                        </li>
+                    </ul>
+
+                    <h3>Usabilidade - Segundo Graham</h3>
+
+                    <ul>
+                        <li>
+                            <strong>Feedback:</strong> toda ação deve gerar uma
+                            reação. O usuário, ao interagir com o sistema, tem
+                            que ter uma ideia clara do que acontece quando ele
+                            faz determinada ação. Exemplo:
+                            <ul>
+                                <li>Clicar em um botão;</li>
+                                <li>Passar o mouse sobre um link.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Acessibilidade:</strong> um produto tem que
+                            ser simples o suficiente para que o usuário faça o
+                            que deseja, da forma mais fácil possível. Ninguém
+                            gosta de ficar procurando algo. Quando a interação
+                            necessitar de muitos passos, é melhor quebrar isso
+                            em pequenas etapas; o usuário vai se sentir mais
+                            confortável.
+                        </li>
+                        <li>
+                            <strong>Orientação:</strong> sempre que possível,
+                            deixar claro o que vai acontecer ou do que se trata.
+                            O usuário não tem que adivinhar nada, pois foi você
+                            quem criou o produto; ele quer apenas usar. Descreva
+                            bem e tenha direcionamentos claros. Exemplo:
+                            <ul>
+                                <li>Clique aqui!</li>
+                                <li>Erro 404: Página não encontrada.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Navegação:</strong> uma página precisa estar
+                            tão bem organizada quanto um mapa. Você odiaria
+                            abrir um mapa e não saber onde está e para onde vai.
+                        </li>
+                    </ul>
+
+                    <h3>Design centrado no usuário não é apenas design</h3>
+
+                    <p>
+                        Ser designer por muito tempo foi algo relacionado ao ato
+                        de projetar coisas para o dia a dia, tanto que os
+                        primeiros profissionais a trabalhar com design de papel,
+                        em revistas e jornais, eram projetistas, desenhistas
+                        industriais.
+                    </p>
+
+                    <p>
+                        O tempo passa, o design gráfico começa a ganhar seu
+                        mercado de atividade e, junto com a tecnologia, vêm mais
+                        e mais transformações. Uma hora se criam os celulares
+                        smartphones, e agora passamos a projetar sites. É
+                        importante salientar, como dito no texto, que a
+                        responsividade veio da necessidade de adaptar páginas,
+                        que antes só eram acessadas no computador e notebook,
+                        para o acesso remoto via celular.
+                    </p>
+
+                    <p>
+                        Como comentado por Nielsen, os primeiros sites eram
+                        sobrecarregados de informações, pois se acreditava que
+                        assim você conquistaria a atenção do usuário. Porém, a
+                        usabilidade aqui já fazia o seu papel: quanto mais
+                        informação e dificuldade em acessar o que você
+                        precisava, mais os usuários passavam a procurar sites
+                        mais claros e diretos.
+                    </p>
+
+                    <p>
+                        É importante salientar que, por mais bonito que um site
+                        seja, a usabilidade é a facilidade do usuário em
+                        conseguir fazer o que deseja, da forma mais fácil e no
+                        menor tempo possível. O site ser ou não bonito
+                        esteticamente não muda nada em relação à usabilidade.
+                    </p>
+
+                    <h3>Design centrado no usuário não é relatório de problemas</h3>
+
+                    <p>Leia!</p>
+
+                    <h3>Design centrado no usuário não é perda de tempo</h3>
+
+                    <p>Leia!</p>
+                </section>
+
+                <section id="capitulo-2">
+                    <h2>Como trabalhar com o usuário</h2>
+
+                    <p>
+                        Essa introdução e os dois últimos capítulos me fizeram
+                        pensar muito no livro de Lowdermilk. Li recentemente um
+                        livro dele, e este me dá muito a sensação de uma escrita
+                        e planejamento a partir dele. Não é ruim, apenas a
+                        leitura de um o deixa próximo demais do outro, e isso
+                        acaba gerando uma sensação de estar relendo o mesmo
+                        livro com outras palavras e alguns acréscimos.
+                    </p>
+
+                    <h3>Diferentes tipos de usuários</h3>
+
+                    <p>
+                        Incomoda-me bastante um livro escrito 2 anos depois por
+                        2 autores não conseguir construir o próprio estudo ou
+                        trazer algo realmente novo até aqui, no capítulo 3, de
+                        forma a tornar a experiência de estudo e leitura algo
+                        interessante e não apenas cansativa.
+                    </p>
+
+                    <p>Vou fazer uso do mesmo texto que usei no outro:</p>
+
+                    <ul>
+                        <li>
+                            <strong>O informante exagerado:</strong> apenas
+                            deixe que falem; para esse, você manda perguntas
+                            objetivas;
+                        </li>
+                        <li>
+                            <strong>O obcecado por controle:</strong> acho que
+                            pequenas tarefas sempre caem bem; para este, você
+                            cria as perguntas com várias alternativas;
+                        </li>
+                        <li>
+                            <strong>O Advogado do Diabo:</strong> difícil de
+                            lidar, pois nunca está bom; a este, você deixa falar
+                            e depois pergunta: como ficaria melhor?
+                        </li>
+                        <li>
+                            <strong>Lidando com a negatividade:</strong> o
+                            positivista é difícil de lidar, pois tudo está bom,
+                            e, para o negativo, tudo está ruim. Melhor colocar
+                            os dois juntos.
+                        </li>
+                    </ul>
+
+                    <p>
+                        Aqui no final existe um pouco de aprofundamento para a
+                        ideia do usuário que assume o papel de advogado do
+                        diabo, citando um livro, <em>As 10 faces da inovação</em>,
+                        que apresenta perfis de pessoas com as quais realmente
+                        acabamos lidando ao longo do desenvolvimento de
+                        projetos.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Antropólogo:</strong> aquele que tem a mente
+                            aberta para novas ideias e percepções;
+                        </li>
+                        <li>
+                            <strong>Experimentador:</strong> dar forma ao que
+                            antes era inatingível e sugerir novas práticas;
+                        </li>
+                        <li>
+                            <strong>Polinizador:</strong> investiga o ambiente
+                            de outros setores e examina o que pode ser adaptável
+                            ao produto a ser desenvolvido;
+                        </li>
+                        <li>
+                            <strong>Saltador de obstáculos:</strong> as
+                            adversidades no caminho são oportunidades;
+                        </li>
+                        <li>
+                            <strong>Colaborador:</strong> reúne todos os estilos
+                            de pessoas para um bem comum;
+                        </li>
+                        <li>
+                            <strong>Diretor:</strong> preocupa-se em levar a
+                            equipe ao sucesso do produto;
+                        </li>
+                        <li>
+                            <strong>Arquiteto de experiências:</strong> trabalha
+                            para sair da mesmice de produtos monótonos para
+                            aplicativos com a melhor experiência;
+                        </li>
+                        <li>
+                            <strong>Contador de história:</strong> quer os
+                            membros da equipe coesos e trabalha mínimos detalhes
+                            na contação de histórias;
+                        </li>
+                        <li>
+                            <strong>Cuidador:</strong> sabe muito bem o que quer
+                            e o que o usuário deseja;
+                        </li>
+                    </ul>
+
+                    <h3>Planejamento e definição do projeto</h3>
+
+                    <p>
+                        O processo de planejamento é parte importante do
+                        projeto, ele é um mapa que ajuda a orientar toda a
+                        equipe, de forma que todos apenas olhando, consigam
+                        entender aonde estão no projeto e aonde devem chegar.
+                        Existem várias ferramentas e métodos que ajudam a
+                        organizar tudo e isso muda de projeto a projeto.
+                    </p>
+
+                    <p>
+                        Uma metodologia citada no livro é o Scrum, em que uma
+                        pessoa assume a responsabilidade pelo projeto, de forma
+                        simples: o product owner, vai organizar o projeto,
+                        conversar com o cliente, alinhar as atividades com a
+                        equipe através de reuniões.
+                    </p>
+
+                    <p>
+                        Uma parte essencial é ter uma ideia clara dos requisitos
+                        que o projeto possui:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Requisitos da aplicação:</strong> requisitos
+                            funcionais (RFs) e requisitos não funcionais (RNFs);
+                        </li>
+                        <li>
+                            <strong>Requisitos do usuário:</strong> necessidades
+                            do usuário organizadas em lista para serem
+                            avaliadas.
+                        </li>
+                    </ul>
+
+                    <h3>Modelos de dados e de fluxo de trabalho</h3>
+
+                    <p>
+                        É normal durante o desenvolvimento criar diagramas que
+                        ajudam a orientar o desenvolvimento:
+                    </p>
+
+                    <ul>
+                        <li>Diagrama de caso de uso;</li>
+                        <li>Diagrama de sequência;</li>
+                        <li>Diagrama de classe.</li>
+                    </ul>
+
+                    <p>
+                        Alguns desses diagramas podem ser desenvolvidos usando:
+                        <a
+                            href="https://www.drawio.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >https://www.drawio.com/</a
+                        >
+                    </p>
+                </section>
+
+                <section id="capitulo-3">
+                    <h2>
+                        Documentação dos Protótipos e a importância da revisão
+                        da documentação
+                    </h2>
+
+                    <p>Leia!</p>
+
+                    <h3>Restrições e narrativa</h3>
+
+                    <p>Leia!</p>
+
+                    <p>
+                        Esse tópico pede um pouco mais de leitura, pois
+                        recomenda o uso de histórias para definir requisitos de
+                        uma aplicação, para muitos projetos a equipe conversa e
+                        vai definindo o que pode e o que não pode faltar, de
+                        forma que o projeto final vai possuir x coisas que
+                        normalmente respondem 3 perguntas:
+                    </p>
+
+                    <ul>
+                        <li>para quem?</li>
+                        <li>porquê?</li>
+                        <li>como?</li>
+                    </ul>
+
+                    <p>
+                        Sei que normalmente se recomenda criar tramas
+                        elaboradas, mas no dia a dia, temos que ter uma ideia
+                        clara da equipe que estamos trabalhando e do projeto que
+                        estamos atuando, muitas vezes os requisitos e as
+                        ferramentas são levantas numa reunião usando um
+                        checklist e respondendo perguntas simples, para
+                        entender se faz ou não faz sentido naquele projeto.
+                    </p>
+
+                    <h3>Personas e cenários</h3>
+
+                    <p>Leia!</p>
+
+                    <h3>Criatividade e experiência do usuário</h3>
+
+                    <p>
+                        A criatividade é uma atividade contínua que deve ser
+                        estimulada e que vai florecer conforme mais vezes você
+                        se coloca numa situação em que tem que pensar, testar e
+                        aplicar, para ver se faz sentido.
+                    </p>
+
+                    <p>
+                        É interessante saber que ao desenvolver um aplicativo,
+                        normalmente planejamos primeiro, criamos o layout depois
+                        e por fim programamos, porém durante o processo de criar
+                        algumas ideias podem surgir para adicionar algo que pode
+                        ter sido deixado esquecido ou não foi levado em
+                        consideração durante o planejamento.
+                    </p>
+
+                    <aside class="note">
+                        <p>
+                            <strong>Nota:</strong> eu normalmente gosto de fazer
+                            os wireframes antes do planejamento, tenho uma ideia
+                            de aplicativo e desenho algumas telas, crio um fluxo
+                            fácil de visualizar e depois que os wireframes estão
+                            desenhados, eu faço o planejamento para do resto,
+                            normalmente assim eu pego muitas referências e vou
+                            entender o que realmente faz ou não faz sentido para
+                            chegar no resultado planejado.
+                        </p>
+                    </aside>
+
+                    <h3>
+                        Telas touchscreen diferem em navegabilidade em relação
+                        ao mouse
+                    </h3>
+
+                    <p>
+                        Esse ponto eu achei interessante, mesmo sendo curto,
+                        pois atualmente estamos passando por um processo de
+                        automação tão significativo que as interações humanas
+                        vem diminuindo, mas todo o processo é feito apenas pelo
+                        cliente.
+                    </p>
+
+                    <p>
+                        Os projetos tem que possuir cada vez mais uma interação
+                        mais simples e fácil de ser seguida, pois o usuário vai
+                        ter que assumir esse sozinho. O totem cada vez mais
+                        ganha seu espaço e o sistema cada vez mais tem que ser
+                        simplificado e fácil de usar.
+                    </p>
+
+                    <h3>Metas de experiência do usuário</h3>
+
+                    <p>Pula!</p>
+                </section>
+
+                <section id="capitulo-4">
+                    <h2>Princípio da proximidade</h2>
+
+                    <p>Leia!</p>
+
+                    <h3>Hierarquia</h3>
+
+                    <p>
+                        De forma simples, os elementos de um projeto, tem que
+                        possuir uma hierarquia e isso vai facilitar o processo
+                        de consumo desse projeto, página ou aplicação.
+                    </p>
+
+                    <p>
+                        A hierarquia visual é feita não só posicionando os
+                        elementos, pode-se usar cores, pesos, tamanho de texto,
+                        ou elementos como desenhos, para fazer quem está
+                        visualizando, consiga ter um direcionamento do caminho
+                        que deve seguir.
+                    </p>
+
+                    <p>
+                        Existem algumas decisões comuns usadas em aplicativos e
+                        sites que facilitam a hora de criar as páginas, como:
+                        manter o menu sempre no topo da página, elementos
+                        clicáveis como chat no canto inferior, links possuem uma
+                        coloração diferente.
+                    </p>
+
+                    <p>
+                        Outro detalhe importante citado é o diagrama de
+                        afinidades, que ensina que elementos próximos devem
+                        possuir alguma relação, elementos mais afastados, não
+                        tem relação próxima.
+                    </p>
+
+                    <h3>Visibilidade</h3>
+
+                    <p>
+                        Há algumas técnicas que podem ser exploradas para
+                        melhorar a visibilidade de um elemento no design,
+                        normalmente em projetos digitais essa liberdade é maior
+                        ainda, tendo como ferramentas:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Tipos de letra:</strong> recomenda-se o uso
+                            de mais de uma tipografia em qualquer projeto, mas
+                            nunca usar mais de 3 pois, pode começar a ficar
+                            confuso;
+                        </li>
+                        <li>
+                            <strong>Opacidade:</strong> a opacidade pode ser
+                            bastante explorada em diversos elementos na tela,
+                            que vão desde textos a imagens, podendo ser usado de
+                            forma a sobrepor algo mas deixar visível ou criar
+                            efeitos visuais interessantes;
+                        </li>
+                        <li>
+                            <strong>Proeminência:</strong> tomando como base a
+                            hierarquia, a proeminência faz uso de elementos
+                            maiores com o objetivo de aumentar a visibilidade em
+                            comparação a outros;
+                        </li>
+                        <li>
+                            <strong>Status:</strong> uma forma de fazer o
+                            usuário perceber que algo está acontecendo é o uso
+                            dos status, uma ferramenta de feedback para o
+                            usuário, logo feita uma determinada ação.
+                        </li>
+                        <li>
+                            <strong>Cores:</strong> esse é um dos elementos mais
+                            conhecidos e mais usados, podendo ser feito uso de
+                            apenas 2 cores para explorar efeitos visuais
+                            interessantes. Mas vale salientar que, cores demais
+                            atrapalham a experiência de qualquer ferramenta e
+                            deve-se manter o uso de algumas cores para feedback;
+                        </li>
+                    </ul>
+
+                    <h3>Heurística</h3>
+
+                    <p>Esse trecho vou fazer alguns pequenos apontamentos:</p>
+
+                    <ul>
+                        <li>
+                            <strong>Visibilidade de status:</strong> acredito
+                            que todo profissional, sempre da feedbacks para as
+                            ações do usuário;
+                        </li>
+                        <li>
+                            <strong
+                                >Correspondência entre o sistema e o mundo
+                                real:</strong
+                            >
+                            use palavras e ícones do mundo real, para
+                            representar coisas no mundo digital;
+                        </li>
+                        <li>
+                            <strong>Controle e liberdade do usuário:</strong> o
+                            sistema deve ser simples e fácil de usar;
+                        </li>
+                        <li>
+                            <strong>Consistência e padrões:</strong> respeite os
+                            padrões que você estabeleceu no seu projeto, tanto
+                            cores quanto formatos;
+                        </li>
+                        <li>
+                            <strong>Prevenção de erros:</strong> sempre que
+                            implementar algo importante adicione uma caixa de
+                            diálogo confirmando a ação;
+                        </li>
+                        <li>
+                            <strong>Reconhecimento em vez de recordação:</strong>
+                            sempre que possível adicionar recentes e coisa que
+                            facilitam a visita a mesma página;
+                        </li>
+                        <li>
+                            <strong>Flexibilidade e eficiência de uso:</strong>
+                            o sistema sempre deve ser convidativo,
+                            principalmente quando acessado a primeira vez;
+                        </li>
+                        <li>
+                            <strong>Design estético e minimalista:</strong> não
+                            exagere e sobrecarregue o usuário visualmente, é
+                            cansativo e geram ruídos;
+                        </li>
+                        <li>
+                            <strong
+                                >Ajuda aos usuários para reconhecer, diagnosticar
+                                e recuperar erros;</strong
+                            >
+                        </li>
+                        <li>
+                            <strong>Ajuda e documentação:</strong> se seu
+                            sistema é complicado, sempre o torne o mais fácil
+                            possível de se entender, principalmente API.
+                        </li>
+                    </ul>
+
+                    <h3>Modelos mentais e metáforas</h3>
+
+                    <p>Leia!</p>
+                </section>
+
+                <section id="capitulo-5">
+                    <h2>Feedback do usuário</h2>
+
+                    <p>Leia!</p>
+                </section>
+
+                <section id="capitulo-6">
+                    <h2>Materiais e Métodos</h2>
+
+                    <p>Leia!</p>
+                </section>
+
+                <section id="nota-final">
+                    <h2>Nota!</h2>
+
+                    <p>
+                        Queria de verdade resumir algo desses últimos capítulos,
+                        porém eles são cópias enfeitadas do texto que
+                        Lowdermilk, sigo com a mesma crítica, esse livro só
+                        existe como uma cópia complementar e infelizmente,
+                        complementa pouco. Porém tem um texto no geral mais
+                        interessante que o Usabilidade, se você ler um deles,
+                        não precisa ler o outro.
+                    </p>
+                </section>
+
+                <p>
+                    Caso queira continuar estudando e aprender mais sobre outros
+                    conteúdos, <a href="/index.html">segue o link</a>. Bons
+                    estudos!
+                </p>
+
+                <blockquote class="quote">
+                    <p>
+                        "<em
+                            >A beleza que vive no ato de compartilhar algo com o
+                            outro.</em
+                        >" — <cite>Monja Coen</cite>
+                    </p>
+                </blockquote>
+            </article>
+        </main>
+
+        <footer>
+            <p>Nilton F. O. Júnior</p>
+        </footer>
+
+        <script src="/src/js/template.js" defer></script>
+    </body>
+</html>
